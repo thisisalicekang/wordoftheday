@@ -7,7 +7,18 @@
       window.alert('hello alice!')
     </script>
     <style>
+    body {
+      margin: 0px;
+    }
+      .wordcontainer{
+        width: 384px;
+        margin: 20px auto;
+    }
       .container {
+        background-image: url("images/beach.png");
+        background-color: white;
+        margin: 20px;
+        height: 100px;
         display: flex;
       }
 
@@ -32,16 +43,11 @@
     </style>
   </head>
   <body>
-    <div class="container">
-      <div class="left-column">
-        Element 1
+    <div class="wordcontainer">
+      <div class="container">
+        Word of the day
       </div>
-      <div class="center-column">
-        Element 2
-      </div>
-      <div class="right-column">
-        Element 3
-      </div>
+
     </div>
   </body>
 </html>
